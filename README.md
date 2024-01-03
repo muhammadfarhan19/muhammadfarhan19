@@ -1,10 +1,15 @@
 # Muhammad Farhan Hamidie
 
-Welcome to my portfolio repository! This is where I share the projects I've worked on and showcase my skills as a web developer.
+Welcome to my portfolio repository! This is where I share the projects I've worked on and showcase my skills as a Frontend Web Developer.
 
 ## About Me
 
-I am a Frontend Website Developer with a focus on technologies such as [list the technologies you specialize in, e.g., React.js, Next.js, Tailwindcss, etc.]. I enjoy combining creativity and technical skills to create engaging user experiences.
+I am a Frontend Website Developer with a focus on technologies such a :
+- Next.js
+- React.js
+- Typescript
+- Tailwindcss
+I enjoy combining creativity and technical skills to create engaging user experiences.
 
 ## Featured Projects
 
