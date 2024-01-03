@@ -11,8 +11,6 @@ I am a Frontend Website Developer with a focus on technologies such as [list the
 ### 1. [Personal Website](https://muhammadfarhan19.vercel.app/)
    Tech Stack : Next.js, Tailwindcss, Typescript
 
-   ![Screenshot Project 1](link_to_project_1_screenshot)
-
 ## Contact
 
 If you'd like to get in touch or collaborate, feel free to reach out to me via [email](hamidie.farhan@gmail.com) or through [Linkedin](https://www.linkedin.com/in/muhammad-farhan-18bb1b235/).
