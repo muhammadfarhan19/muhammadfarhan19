@@ -1,4 +1,4 @@
-# Your Portfolio Name
+# Muhammad Farhan Hamidie
 
 Welcome to my portfolio repository! This is where I share the projects I've worked on and showcase my skills as a web developer.
 
