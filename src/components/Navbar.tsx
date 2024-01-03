@@ -22,10 +22,10 @@ const Navbar = () => {
       </section>
       <section className="navbar-end">
         <a
-          className={`border-2 border-slate-900 px-3 lg:px-6 py-1 lg:py-1.5 font-medium rounded-full text-slate-900 cursor-pointer transition-all duration-200 ${
+          className={`border-2 px-3 lg:px-6 py-1 lg:py-1.5 font-medium rounded-full cursor-pointer transition-all duration-200 ${
             isDark
               ? "border-slate-100 text-slate-100 hover:bg-slate-100 hover:text-slate-900"
-              : "hover:bg-slate-900 hover:text-slate-100"
+              : "text-slate-900 border-slate-900 hover:bg-slate-900 hover:text-slate-100"
           } `}
         >
           Resume

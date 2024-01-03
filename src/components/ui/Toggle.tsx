@@ -8,7 +8,7 @@ const Toggle = () => {
     <button
       title="Toggle Theme"
       onClick={() => setIsDark(!isDark)}
-      className={` lg:ms-3 w-10 h-10 rounded-full grid place-items-center ${isDark ? "border-slate-100" : "border-slate-900"}`}
+      className={`border lg:ms-3 w-8 h-8 rounded-full grid place-items-center ms-2 ${isDark ? "bg-slate-100" : "bg-slate-900"}`}
     >
       {
         isDark ? <LightIcon /> : <DarkIcon />

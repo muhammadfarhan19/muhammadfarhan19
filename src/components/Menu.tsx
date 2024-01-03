@@ -9,7 +9,7 @@ const Menu = () => {
   const { isDark, setIsDark } = useDarkMode();
 
   const menuStyle =
-    "menu dropdown-content p-2 font-medium rounded-box w-52 shadow-xl absolute transition-all duration-200 translate-y-24 lg:translate-y-32";
+    "menu dropdown-content p-2 font-medium rounded-box w-52 shadow-xl absolute transition-all duration-200 translate-y-36 lg:translate-y-32";
 
   const contacts = [
     {
@@ -33,7 +33,7 @@ const Menu = () => {
       } ${isDark? "text-slate-900" : "bg-slate-900 text-slate-100"}`}
     >
       {contacts.map((contact, index) => (
-        <li key={index} className="transition-all duration-200 hover:ps-2">
+        <li key={index} className="transition-all duration-200 hover:ps-2 ">
           <a>
             {contact.icon} {contact.name}
           </a>
