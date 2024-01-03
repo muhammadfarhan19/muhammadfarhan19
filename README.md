@@ -9,6 +9,7 @@ I am a Frontend Website Developer with a focus on technologies such a :
 - React.js
 - Typescript
 - Tailwindcss
+
 I enjoy combining creativity and technical skills to create engaging user experiences.
 
 ## Featured Projects
