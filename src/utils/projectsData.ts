@@ -1,4 +1,4 @@
-import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoGithub, BiLogoTypescript } from "react-icons/bi";
 import {
   RiJavascriptFill,
   RiNextjsFill,
@@ -7,7 +7,14 @@ import {
 import { SiChakraui, SiExpress } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 import { ProjectCardType } from "./types";
-import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaGithub,
+  FaHtml5,
+  FaLinkedinIn,
+  FaReact,
+} from "react-icons/fa";
+import { ImInstagram } from "react-icons/im";
 
 import bayiSehat from "./../../public/assets/bayi-sehat.png";
 import sosmedDashboard from "./../../public/assets/sosmed-dashboard.png";
@@ -15,10 +22,11 @@ import expenseChart from "./../../public/assets/expense-chart.png";
 import huddle from "./../../public/assets/huddle.png";
 import finalProject from "./../../public/assets/final-project.png";
 import BWASlicing from "./../../public/assets/bwa-slicing.png";
+import intradikti from "./../../public/assets/intradikti.png";
 
 export const projectsData: ProjectCardType[] = [
   {
-    name: "Bayi Sehat",
+    name: "Tugas Akhir | Bayi Sehat",
     url: "http://bayi-sehat.vercel.app",
     image: bayiSehat,
     techStack: [
@@ -45,6 +53,25 @@ export const projectsData: ProjectCardType[] = [
     ],
   },
   {
+    name: "Intra DIKTI | MSIB 6 X Kemendikbud Ristek",
+    url: "https://intradikti.kemdikbud.go.id/",
+    image: intradikti,
+    techStack: [
+      {
+        icon: BiLogoTypescript,
+        name: "Typescript",
+      },
+      {
+        icon: RiNextjsFill,
+        name: "Next.JS",
+      },
+      {
+        icon: RiTailwindCssFill,
+        name: "Tailwindcss",
+      },
+    ],
+  },
+  {
     name: "Final Project | MSIB 4 X Ruangguru",
     url: "https://student-portal-32b9f.web.app/",
     image: finalProject,
@@ -65,7 +92,7 @@ export const projectsData: ProjectCardType[] = [
     ],
   },
   {
-    name: "BWA - Slicing Challege",
+    name: "BWA | Slicing Challege",
     url: "https://bwa-intern-challenge.netlify.app/",
     image: BWASlicing,
     githubUrl: "https://github.com/muhammadfarhan19/bwa-intern-challenge",
@@ -81,7 +108,7 @@ export const projectsData: ProjectCardType[] = [
     ],
   },
   {
-    name: "Frontend Mentor - Sosmed Dashboard",
+    name: "Frontend Mentor | Sosmed Dashboard",
     url: "https://sosmed-dashboard-orcin.vercel.app/",
     image: sosmedDashboard,
     techStack: [
@@ -96,7 +123,7 @@ export const projectsData: ProjectCardType[] = [
     ],
   },
   {
-    name: "Frontend Mentor - Expense Chart",
+    name: "Frontend Mentor | Expense Chart",
     url: "https://frontend-mentor-expense-chart.vercel.app/",
     image: expenseChart,
     githubUrl: "https://github.com/muhammadfarhan19/expense-chart",
@@ -116,7 +143,7 @@ export const projectsData: ProjectCardType[] = [
     ],
   },
   {
-    name: "Frontend Mentor - Huddle Rouge",
+    name: "Frontend Mentor | Huddle Rouge",
     url: "https://frontend-mentor-huddle-rouge.vercel.app/",
     image: huddle,
     githubUrl: "https://github.com/muhammadfarhan19/frontend-mentor-huddle",
@@ -131,4 +158,43 @@ export const projectsData: ProjectCardType[] = [
       },
     ],
   },
+];
+
+export const dataSkillCard = [
+  {
+    icon: RiJavascriptFill,
+    text: "Javascript",
+  },
+  {
+    icon: BiLogoTypescript,
+    text: "Typescript",
+  },
+  {
+    icon: RiNextjsFill,
+    text: "Next.JS",
+  },
+  {
+    icon: SiExpress,
+    text: "Express.JS",
+  },
+  {
+    icon: RiTailwindCssFill,
+    text: "Tailwindcss",
+  },
+  {
+    icon: DiPostgresql,
+    text: "PostgreSQL",
+  },
+  {
+    icon: BiLogoGithub,
+    text: "Github",
+  },
+];
+export const contactsButton = [
+  { icon: ImInstagram, href: "https://www.instagram.com/_muhammad.farhan/" },
+  {
+    icon: FaLinkedinIn,
+    href: "https://linkedin.com/in/muhammad-farhan-18bb1b235/",
+  },
+  { icon: FaGithub, href: "https://github.com/muhammadfarhan19" },
 ];
