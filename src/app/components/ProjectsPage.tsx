@@ -4,7 +4,7 @@ import { projectsData } from "@/utils/projectsData";
 
 const ProjectsPage = () => {
   return (
-    <main className="w-full h-screen flex flex-col space-y-10 py-20">
+    <main className="w-full h-full flex flex-col space-y-10 py-20">
       <h1 className="text-3xl font-semibold text-white">My Projects</h1>
       <section className="grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-5">
         {projectsData.map((item, index) => (

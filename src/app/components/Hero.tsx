@@ -76,7 +76,7 @@ const HeroPage = () => {
           </button>
         </section>
       </aside>
-      <aside className="w-full flex justify-center items-center gap-3 flex-wrap">
+      <aside className="w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-6 lg:grid-cols-8">
         {dataSkillCard.map((item, index) => (
           <SkillCard Icon={item.icon} text={item.text} key={index} />
         ))}
