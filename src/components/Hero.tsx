@@ -2,7 +2,7 @@ import React from "react";
 import SkillCard from "./shared/SkillCard";
 import { contactsButton, dataSkillCard } from "@/utils/projectsData";
 import Image from "next/image";
-import heroImage from "./../../../public/assets/avatar.png";
+import heroImage from "./../../public/assets/avatar.png";
 
 export const HeroPage = () => {
   return (

@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Navbar from "./components/layout/Navbar";
-import HeroPage from "./components/Hero";
-import ProjectsPage from "./components/ProjectsPage";
+import HeroPage from "@/components/Hero";
+import ProjectsPage from "@/components/ProjectsPage";
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   return (
