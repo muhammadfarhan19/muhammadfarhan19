@@ -33,8 +33,8 @@ export const HeroPage = () => {
               </a>
             ))}
             <a
-              href="./../../../public/assets/resume.pdf"
-              download
+              href="../../public/assets/resume.pdf"
+              download="resume.pdf"
               className="cursor-pointer px-8 py-2 font-semibold rounded-full bg-orange-400 text-slate-900 transition-all duration-400 hover:text-slate-900 hover:bg-white"
             >
               resume
