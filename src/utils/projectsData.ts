@@ -23,6 +23,7 @@ import huddle from "./../../public/assets/huddle.png";
 import finalProject from "./../../public/assets/final-project.png";
 import BWASlicing from "./../../public/assets/bwa-slicing.png";
 import intradikti from "./../../public/assets/intradikti.png";
+import hadisApp from "./../../public/assets/hadisApp.png";
 
 export const projectsData: ProjectCardType[] = [
   {
@@ -88,6 +89,26 @@ export const projectsData: ProjectCardType[] = [
       {
         icon: SiChakraui,
         name: "ChakraUI",
+      },
+    ],
+  },
+  {
+    name: "Hadis App",
+    url: "https://hadis-app.vercel.app/",
+    image: hadisApp,
+    githubUrl: "https://github.com/muhammadfarhan19/hadis-app",
+    techStack: [
+      {
+        icon: BiLogoTypescript,
+        name: "Typescript",
+      },
+      {
+        icon: RiNextjsFill,
+        name: "Next.JS",
+      },
+      {
+        icon: RiTailwindCssFill,
+        name: "Tailwindcss",
       },
     ],
   },
