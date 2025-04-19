@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Hi 👋, I'm Muhammad Farhan Hamidie</h1>
+<h3 align="center">A passionate Fullstack Developer from Yogyakarta, Indonesia 🇮🇩</h3>
 
-## Getting Started
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=muhfarhan&label=Profile%20views&color=0e75b6&style=flat" alt="muhfarhan" />
+</p>
 
-First, run the development server:
+---
+
+🌐 **About Me**
+
+- 💼 Currently working as a **Fullstack Developer at [Bilas.id](https://bilas.id)**  
+- 🚀 Focused on building:  
+  `Scalable Web Apps`, `RESTful APIs`, `Admin Dashboards`, and `Transactional Systems`
+- 🛠 Tech stack I'm most comfortable with:
+  - **Frontend**: Next.js, React.js, Tailwind CSS  
+  - **Backend**: Express.js, NestJS, TypeScript, REST API  
+  - **Database**: PostgreSQL, MySQL, Firebase, Prisma ORM
+- 🎯 I'm passionate about writing clean code and solving real-world problems with web technology
+- 📫 Reach me at: `hamidie.farhan@gmail.com` or [profile](https://muhfarhan.vercel.app)
+
+---
+
+🧰 **Tech Stack**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+💻 Languages:        TypeScript, JavaScript, HTML, CSS
+🧩 Frontend:         Next.js, React.js, Tailwind CSS, Chakra UI
+🔧 Backend:          Express.js, NestJS, REST API, JWT
+🗄️ Databases:        PostgreSQL, MySQL
+⚙️ Tools:            Prisma ORM, Axios, Git, Vercel, Railway, Postman
