@@ -12,10 +12,6 @@
 - 💼 Currently working as a **Fullstack Developer at [Bilas.id](https://bilas.id)**  
 - 🚀 Focused on building:  
   `Scalable Web Apps`, `RESTful APIs`, `Admin Dashboards`, and `Transactional Systems`
-- 🛠 Tech stack I'm most comfortable with:
-  - **Frontend**: Next.js, React.js, Tailwind CSS  
-  - **Backend**: Express.js, NestJS, TypeScript, REST API  
-  - **Database**: PostgreSQL, MySQL, Firebase, Prisma ORM
 - 🎯 I'm passionate about writing clean code and solving real-world problems with web technology
 - 📫 Reach me at: `hamidie.farhan@gmail.com` or [profile](https://muhfarhan.vercel.app)
 
@@ -27,5 +23,5 @@
 💻 Languages:        TypeScript, JavaScript, HTML, CSS
 🧩 Frontend:         Next.js, React.js, Tailwind CSS, Chakra UI
 🔧 Backend:          Express.js, NestJS, REST API, JWT
-🗄️ Databases:        PostgreSQL, MySQL
+🗄️ Databases:        PostgreSQL, MySQL Firebase
 ⚙️ Tools:            Prisma ORM, Axios, Git, Vercel, Railway, Postman
