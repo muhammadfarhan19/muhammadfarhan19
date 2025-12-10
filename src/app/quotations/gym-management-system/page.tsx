@@ -11,75 +11,120 @@ import {
   ClipboardCheck,
   UserCog,
   MessageCircle,
+  Key,
 } from "lucide-react";
+import { HiOfficeBuilding } from "react-icons/hi";
+import { BsWhatsapp } from "react-icons/bs";
 
 export default function GymQuotation() {
   const packages = [
     {
-      name: "PAKET BASIC",
-      price: "Rp 3.000.000",
-      priceNum: 3000000,
+      name: "PAKET STARTER",
+      price: "Rp 3.999.000",
+      priceNum: 3999000,
       color: "from-blue-500 to-blue-600",
       description: "Cocok untuk gym pemula atau skala kecil",
       features: [
         { name: "Kelola Data Member", included: true, icon: Users },
         { name: "Presensi Member", included: true, icon: ClipboardCheck },
-        { name: "Laporan Member Sederhana", included: true, icon: Users },
         {
           name: "Kelola Pembelian & Penjualan",
-          included: false,
+          included: true,
           icon: ShoppingCart,
         },
-        { name: "Maintenance Peralatan", included: false, icon: Dumbbell },
-        { name: "Kelola Keuangan", included: false, icon: Wallet },
+        { name: "Kelola Keuangan", included: true, icon: Wallet },
         { name: "Kelola Pegawai", included: false, icon: UserCog },
         { name: "Dashboard Analitik", included: false, icon: Wallet },
-        { name: "Notifikasi Otomatis", included: false, icon: ClipboardCheck },
+        {
+          name: "Laporan Keuangan, Member, Pegawai",
+          included: false,
+          icon: Users,
+        },
+        { name: "Multi Role", included: false, icon: Key },
+        { name: "Multi Outlet", included: false, icon: HiOfficeBuilding },
+        { name: "Client Platform", included: false, icon: ClipboardCheck },
       ],
     },
     {
-      name: "PAKET STANDARD",
-      price: "Rp 6.000.000",
-      priceNum: 6000000,
+      name: "PAKET EKONOMIS",
+      price: "Rp 6.999.000",
+      priceNum: 6999000,
       color: "from-purple-500 to-purple-600",
       description: "Pilihan terbaik untuk gym berkembang",
       popular: true,
       features: [
         { name: "Kelola Data Member", included: true, icon: Users },
         { name: "Presensi Member", included: true, icon: ClipboardCheck },
-        { name: "Laporan Member Sederhana", included: true, icon: Users },
         {
           name: "Kelola Pembelian & Penjualan",
           included: true,
           icon: ShoppingCart,
         },
-        { name: "Maintenance Peralatan", included: true, icon: Dumbbell },
         { name: "Kelola Keuangan", included: true, icon: Wallet },
-        { name: "Kelola Pegawai", included: false, icon: UserCog },
-        { name: "Dashboard Analitik", included: false, icon: Wallet },
-        { name: "Notifikasi Otomatis", included: false, icon: ClipboardCheck },
+        { name: "Kelola Pegawai", included: true, icon: UserCog },
+        { name: "Dashboard Analitik", included: true, icon: Wallet },
+        {
+          name: "Laporan Keuangan, Member, Pegawai",
+          included: true,
+          icon: Users,
+        },
+        { name: "Multi Role", included: false, icon: Key },
+        { name: "Multi Outlet", included: false, icon: HiOfficeBuilding },
+        { name: "Client Platform", included: false, icon: ClipboardCheck },
       ],
     },
     {
-      name: "PAKET PREMIUM",
-      price: "Rp 10.000.000",
-      priceNum: 10000000,
+      name: "PAKET IDEAL",
+      price: "Rp 9.999.000",
+      priceNum: 9999000,
       color: "from-amber-500 to-amber-600",
       description: "Solusi lengkap untuk gym profesional",
       features: [
         { name: "Kelola Data Member", included: true, icon: Users },
         { name: "Presensi Member", included: true, icon: ClipboardCheck },
-        { name: "Laporan Member Sederhana", included: true, icon: Users },
         {
           name: "Kelola Pembelian & Penjualan",
           included: true,
           icon: ShoppingCart,
         },
-        { name: "Maintenance Peralatan", included: true, icon: Dumbbell },
         { name: "Kelola Keuangan", included: true, icon: Wallet },
         { name: "Kelola Pegawai", included: true, icon: UserCog },
         { name: "Dashboard Analitik", included: true, icon: Wallet },
-        { name: "Notifikasi Otomatis", included: true, icon: ClipboardCheck },
+        {
+          name: "Laporan Keuangan, Member, Pegawai",
+          included: true,
+          icon: Users,
+        },
+        { name: "Multi Role", included: true, icon: Key },
+        { name: "Multi Outlet", included: false, icon: HiOfficeBuilding },
+        { name: "Client Platform", included: false, icon: ClipboardCheck },
+      ],
+    },
+    {
+      name: "PAKET BISNIS",
+      price: "Rp 11.999.000",
+      priceNum: 11999000,
+      color: "from-orange-500 to-orange-600",
+      description: "Solusi enterprise untuk jaringan gym multi-cabang",
+      features: [
+        { name: "Kelola Data Member", included: true, icon: Users },
+        { name: "Presensi Member", included: true, icon: ClipboardCheck },
+        {
+          name: "Kelola Pembelian & Penjualan",
+          included: true,
+          icon: ShoppingCart,
+        },
+        { name: "Kelola Keuangan", included: true, icon: Wallet },
+        { name: "Kelola Pegawai", included: true, icon: UserCog },
+        { name: "Dashboard Analitik", included: true, icon: Wallet },
+        {
+          name: "Laporan Keuangan, Member, Pegawai",
+          included: true,
+          icon: Users,
+        },
+        { name: "Multi Role", included: true, icon: Key },
+        { name: "Multi Outlet", included: true, icon: HiOfficeBuilding },
+        { name: "Client Platform", included: true, icon: ClipboardCheck },
       ],
     },
   ];
@@ -90,53 +135,95 @@ export default function GymQuotation() {
       items: [
         "Registrasi member baru",
         "Update profil member",
-        "Riwayat keanggotaan",
+        "Riwayat membership",
         "Masa aktif membership",
+        "Tracking status member",
       ],
     },
     {
       title: "Presensi Member",
       items: [
         "Check-in harian",
-        "Histori kehadiran",
+        "Riwayat kehadiran",
         "Laporan absensi bulanan",
       ],
     },
     {
       title: "Kelola Pembelian & Penjualan",
       items: [
-        "Penjualan minuman & suplemen",
+        "Penjualan minuman, suplemen, snack, dll",
         "Pembelian alat operasional",
         "Pembelian peralatan gym",
         "Inventori stok barang",
-        "Riwayat transaksi",
-      ],
-    },
-    {
-      title: "Maintenance Peralatan",
-      items: [
-        "Jadwal maintenance berkala",
-        "Riwayat perbaikan",
-        "Status kondisi alat",
-        "Reminder maintenance",
+        "Riwayat transaksi lengkap",
       ],
     },
     {
       title: "Kelola Keuangan",
       items: [
         "Laporan pemasukan & pengeluaran",
-        "Grafik keuangan",
+        "Grafik keuangan interaktif",
         "Rekap bulanan & tahunan",
         "Kategori transaksi",
+        "Cash flow management",
       ],
     },
     {
       title: "Kelola Pegawai",
       items: [
-        "Data karyawan",
-        "Jadwal shift",
-        "Gaji & absensi",
-        "Performa staff",
+        "Data lengkap karyawan",
+        "Jadwal shift kerja",
+        "Sistem gaji & absensi",
+        "Evaluasi performa staff",
+      ],
+    },
+    {
+      title: "Dashboard Analitik",
+      items: [
+        "Grafik pendapatan",
+        "Statistik member aktif",
+        "Analisis tren kunjungan",
+        "KPI gym performance",
+        "Laporan visualisasi data",
+      ],
+    },
+    {
+      title: "Laporan Keuangan, Member, Pegawai",
+      items: [
+        "Laporan keuangan lengkap",
+        "Laporan member & renewal",
+        "Laporan kinerja pegawai",
+        "Export data ke Excel/PDF",
+      ],
+    },
+    {
+      title: "Multi Outlet",
+      items: [
+        "Kelola beberapa cabang gym",
+        "Sinkronisasi data antar outlet",
+        "Laporan per cabang",
+        "Manajemen terpusat",
+        "Transfer member antar outlet",
+      ],
+    },
+    {
+      title: "Multi Role",
+      items: [
+        "Role-based access control",
+        "Owner, Manager, Staff roles",
+        "Custom permission settings",
+        "Activity log per user",
+        "Keamanan data terjamin",
+      ],
+    },
+    {
+      title: "Client Platform",
+      items: [
+        "Platform untuk member",
+        "Laporan kehadiran member",
+        "Laporan pembayaran member",
+        "Notifikasi & reminder",
+        "Presensi",
       ],
     },
   ];
@@ -159,19 +246,19 @@ export default function GymQuotation() {
         </div>
 
         {/* Packages */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
           {packages.map((pkg, idx) => (
             <div
               key={idx}
               className="relative bg-slate-800/50 backdrop-blur border-2 border-slate-700 rounded-2xl p-8 transition-all duration-300 hover:shadow-2xl"
             >
-              {pkg.popular && (
+              {/* {pkg.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
                     PALING POPULER
                   </span>
                 </div>
-              )}
+              )} */}
 
               <div
                 className={`bg-gradient-to-r ${pkg.color} rounded-xl p-6 mb-6 shadow-lg`}
@@ -244,7 +331,7 @@ export default function GymQuotation() {
                 ✓ Sudah Termasuk:
               </h4>
               <ul className="space-y-2 text-slate-300">
-                <li>• Instalasi & setup system</li>
+                <li>• Domain, hosting, dan server 1 tahun pertama</li>
                 <li>• Training penggunaan system</li>
                 <li>• Dokumentasi lengkap</li>
                 <li>• Free maintenance 3 bulan</li>
@@ -256,9 +343,10 @@ export default function GymQuotation() {
                 ⚡ Waktu Pengerjaan:
               </h4>
               <ul className="space-y-2 text-slate-300">
-                <li>• Paket Basic: 2-3 minggu</li>
-                <li>• Paket Standard: 3-4 minggu</li>
-                <li>• Paket Premium: 4-6 minggu</li>
+                <li>• Paket Starter: 2-3 minggu</li>
+                <li>• Paket Ekonomis: 3-5 minggu</li>
+                <li>• Paket Ideal: 5-7 minggu</li>
+                <li>• Paket Bisnis: 7-10 minggu</li>
               </ul>
               <h4 className="font-bold mt-4 mb-3 text-purple-400">
                 💳 Pembayaran:
@@ -273,7 +361,7 @@ export default function GymQuotation() {
 
         {/* Footer */}
         <div className="text-center mt-12 text-slate-400">
-          <p className="mb-2">Quotation ini berlaku selama 30 hari</p>
+          {/* <p className="mb-2">Quotation ini berlaku selama 30 hari</p> */}
           <p className="text-sm">
             Untuk informasi lebih lanjut, silakan hubungi kami
           </p>
@@ -286,7 +374,7 @@ export default function GymQuotation() {
           rel="noopener noreferrer"
           className="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 z-50 flex items-center justify-center group"
         >
-          <MessageCircle className="w-8 h-8" />
+          <BsWhatsapp className="w-8 h-8" />
           <span className="absolute right-full mr-3 bg-slate-900 text-white px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl">
             Hubungi Kami
           </span>
